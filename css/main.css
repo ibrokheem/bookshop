@@ -1,0 +1,33 @@
+html{
+  box-sizing: border-box;
+}
+
+*,*::after,*::before{
+  box-sizing: inherit;
+}
+
+body{
+  height: 100%;
+  /* font-family: ""; */
+  font-style: normal;
+  font-weight: normal;
+  /* font-size: px; */
+  /* line-height: px; */
+  
+  /* color: var(); */
+}
+
+.main-logo{
+  display: block;
+  width: 140px;
+  height: 40px;
+  opacity: 1;
+}
+
+.main-logo:hover{
+  opacity: 0.8;
+}
+
+.main-logo:active{
+  opacity: 0.6;
+}
