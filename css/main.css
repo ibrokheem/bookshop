@@ -1,6 +1,6 @@
 html{
   box-sizing: border-box;
-}
+} 
 
 *,*::after,*::before{
   box-sizing: inherit;
@@ -33,12 +33,16 @@ body{
 }
 
 @media only screen and (max-width: 575px){
-  .book {
-    display: flex !important;
-    flex-direction: row;
+  .books-item{
+    flex-grow: 1;
   }
-  .book__img{
+  .book {
+    /* display: flex !important;
+    flex-direction: row; */
+  }
+  /* .book__img{
     width: 200px;
     height: 250px;
-  }
+    object-fit: cover;
+  } */
 }
